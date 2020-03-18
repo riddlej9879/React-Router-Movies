@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MovieCard = props => {
-  return (
-    <Link to={`/Movie/${movie.id}`}></Link>
-  );
+ return;
 };
 
 export default MovieCard;
